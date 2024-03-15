@@ -1,6 +1,6 @@
 {
-  "name": "typescript-npm-starter",
-  "version": "1.0.0",
+  "name": "@cafuchino/typescript-package-starter",
+  "version": "0.0.0",
   "description": "",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
@@ -26,16 +26,18 @@
     "build:esm": "tsc -p ./configs/tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "build:cjs": "tsc -p ./configs/tsconfig.cjs.json",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "publish": "np"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "starter", "package", "npm", "module", "library", "template", "boilerplate", "scaffold", "skeleton"],
+  "author": "CafuChino",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.3.12",
     "@types/mocha": "^10.0.6",
     "chai": "4.4.1",
     "mocha": "^10.3.0",
+    "np": "^10.0.1",
     "prettier": "3.2.5",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
