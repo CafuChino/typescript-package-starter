@@ -19,6 +19,11 @@
   "files": [
     "lib/**/*"
   ],
+  "homepage": "https://github.com/CafuChino/typescript-package-starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CafuChino/typescript-package-starter.git"
+  },
   "scripts": {
     "prepack": "npm run build",
     "clean": "rimraf lib",
@@ -27,7 +32,7 @@
     "build:cjs": "tsc -p ./configs/tsconfig.cjs.json",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
     "format": "prettier --write .",
-    "publish": "np"
+    "release": "np"
   },
   "keywords": [
     "typescript",
