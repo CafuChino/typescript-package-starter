@@ -1,6 +1,6 @@
 {
   "name": "@cafuchino/typescript-package-starter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
@@ -29,7 +29,18 @@
     "format": "prettier --write .",
     "publish": "np"
   },
-  "keywords": ["typescript", "starter", "package", "npm", "module", "library", "template", "boilerplate", "scaffold", "skeleton"],
+  "keywords": [
+    "typescript",
+    "starter",
+    "package",
+    "npm",
+    "module",
+    "library",
+    "template",
+    "boilerplate",
+    "scaffold",
+    "skeleton"
+  ],
   "author": "CafuChino",
   "license": "ISC",
   "devDependencies": {
